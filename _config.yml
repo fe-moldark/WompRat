@@ -1,0 +1,18 @@
+title: WompRat
+description: A tool to actively identify and respond to unknown devices on your network.
+#theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+url: "https://womprat.dev"
+baseurl: ""
+
+aux_links:
+  Github Repo: https://github.com/fe-moldark/WompRat
+  WK: https://wesleykent.com
+
+favicon_ico: "/assets/images/icon3.png"
+
+color_scheme: dark
