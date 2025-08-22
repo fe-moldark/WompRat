@@ -4,10 +4,11 @@ description: A tool to actively identify and respond to unknown devices on your 
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
+  - github-pages
   - jekyll-remote-theme
 
-url: "https://womprat.dev"
-baseurl: ""
+#url: ""
+#baseurl: ""
 
 aux_links:
   Github Repo: https://github.com/fe-moldark/WompRat
