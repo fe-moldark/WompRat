@@ -7,7 +7,7 @@ plugins:
   - github-pages
   - jekyll-remote-theme
 
-url: "https://womprat.dev"
+url: https://womprat.dev
 #baseurl: ""
 
 aux_links:
