@@ -14,6 +14,7 @@ aux_links:
   Github Repo: https://github.com/fe-moldark/WompRat
   WK: https://wesleykent.com
 
-favicon_ico: "/assets/images/icon3.png"
+#favicon_ico: "/assets/images/icon3.png"
+favicon_ico: "/assets/images/womprat_newicon.png"
 
 color_scheme: dark
