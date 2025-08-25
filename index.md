@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-**WompRat** is a coffee-fueled project aimed at identifying and responding to unknown devices on your network. The tools integrate with your local DNS servers and routers' arp tables to automatically scan, identify and report right to your email.
+**WompRat** is an open-source project aimed at identifying and responding to unknown devices on your network. The tools integrate with your local DNS servers and routers' arp tables to automatically scan, identify and report right to your email.
 <br><br>
 This is in no way designed to replace proper network access controls, it's more a poor imitation aimed at alerting on unknown devices if you're running a plug-and-play dhcp set up. The scripts are primarily written in bash with some python used for the email notifications. There are ways to white-list MACs, MAC vendors, set up alerts for devices, easily parse through log files for particular data, and more.
 <br><br>
