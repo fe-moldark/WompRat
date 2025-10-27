@@ -11,6 +11,9 @@ fi
 
 echo "Date: $getDate"
 
+
+USER=skywalker
+
 baseFolder="/home/$USER/WompRat/Logs/$getDate/"
 
 
