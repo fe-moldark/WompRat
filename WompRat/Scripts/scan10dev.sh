@@ -20,7 +20,7 @@ touch "$baseFolder/$logFile"
 touch "$baseFolder/stdouterr.log"
 
 
-# To troubleshoot, uncomment below so you can see the output live
+# To troubleshoot, comment below so you can see the output live
 exec > "$baseFolder/stdouterr.log" 2>&1
 
 
@@ -223,11 +223,11 @@ declare -A knownMacsDict
 declare -A knownMacsVendorsDict
 
 while IFS=',' read -r macID descriptor _; do
-    knownMacsDict["$macID"]="$descriptor"
+    knownMacsDict["${macID,,}"]="$descriptor"
 done < $whitelisted_macs_file
 
 while IFS=',' read -r macID descriptor _; do
-    knownMacsVendorsDict["$macID"]="$descriptor"
+    knownMacsVendorsDict["${macID,,}"]="$descriptor"
 done < $whitelisted_macs_vendors_file
 
 # ----------------------------------------------------------------------------
@@ -259,7 +259,7 @@ sleep 0.5
 if [[ "$dns_server" == "0" ]]; then
     echo " + No DNS server was designated."
 else
-    echo " +  A DNS server at $dns_server was queried, resulting in ${#dns_ip_dict[@]} entries."
+    echo " + A DNS server at $dns_server was queried, resulting in ${#dns_ip_dict[@]} entries."
 fi
 
 
