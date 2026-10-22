@@ -10,6 +10,8 @@ It would be neat to improve this project in a number of ways, for instance:
 - Graphically depict history of the number of unknown devices, the days/times a particular device is online, and more along these lines
 - Create port-based profiles (using nmap) of unknown devices to better ID ones that may be constantly spoofing and changing their MACs and/or IPs
 - Adjust this to run under a standard, non-root account
+- Automated log clean up
+- Automated removal of old MACs from whitelisted files if not seen in past x amount of months
 <br>
 
 Unfortunately, I have  work and certifications that take precedence, so we'll have to see if I ever find the time and get around to it.
